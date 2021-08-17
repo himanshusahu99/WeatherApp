@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Weather app</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="stylesheet" href="main.css" />
+
+</head>
+
+<body>
+     <div class="app-wrap">
+          <div class="alertnotfound"></div>
+          <header>
+               <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+          </header>
+          <main>
+               <div id="initialmsg">
+                    Pls search your city name
+               </div>
+               <div id="maindisplay">
+                    <section class="location">
+                         <div class="city">Select City</div>
+                         <div class="date">Date</div>
+                    </section>
+                    <div class="current">
+                         <div class="temp">temp<span>°c</span></div>
+                         <div class="weather">atmosphere</div>
+                         <div class="hi-low">temp°c / temp°c</div>
+
+                    </div>
+               </div>
+          </main>
+     </div>
+     <script src="main.js"></script>
+</body>
+
+</html>
